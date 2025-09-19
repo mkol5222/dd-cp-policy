@@ -1,7 +1,7 @@
-resource "checkpoint_management_host" "manicka" {
+resource "checkpoint_management_host" "manicka2" {
   for_each = local.hosts
 
-  name         = "manicka"
+  name         = "manicka2"
   ipv4_address = "192.168.1.4"
 
   color = "pink"
