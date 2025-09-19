@@ -17,13 +17,13 @@ hosts:
       - skupa
     comment: test
     
-  - name: tomcat2
-    ip: 10.10.1.244
-    color: black
-    tags:
-      - tom_and_jerry
-      - skupa
-    comment: test
+  # - name: tomcat2
+  #   ip: 10.10.1.244
+  #   color: black
+  #   tags:
+  #     - tom_and_jerry
+  #     - skupa
+  #   comment: test
 
   - name: tomcat3
     ip: 10.10.1.245
