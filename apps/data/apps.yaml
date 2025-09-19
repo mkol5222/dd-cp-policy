@@ -1,49 +1,49 @@
 
 apps:
 
-  - name: prodej_primek
-    services:
-      - name: prim-webiky
-        services:
-          - https
-          - http
-        scope:
-          - net_prim_web
-        consumers:
-          - Any
+  # - name: prodej_primek
+  #   services:
+  #     - name: prim-webiky
+  #       services:
+  #         - https
+  #         - http
+  #       scope:
+  #         - net_prim_web
+  #       consumers:
+  #         - Any
 
 
-      - name: db-prim
-        services:
-          - https
-          - MS-SQL-Server
-        scope:
-          - net_prim_db
-        consumers:
-          - net_prim_web
+  #     - name: db-prim
+  #       services:
+  #         - https
+  #         - MS-SQL-Server
+  #       scope:
+  #         - net_prim_db
+  #       consumers:
+  #         - net_prim_web
 
-  - name: coros_app
-    services:
-      - name: front-end-coros
-        services:
-          - https
-          - http
-        scope:
-          - net_coros_web
-        consumers:
-          - Any
+  # - name: coros_app
+  #   services:
+  #     - name: front-end-coros
+  #       services:
+  #         - https
+  #         - http
+  #       scope:
+  #         - net_coros_web
+  #       consumers:
+  #         - Any
 
 
-  - name: magic_app
-    services:
-      - name: front-end
-        services:
-          - https
-          - http
-        scope:
-          - net_magic_front
-        consumers:
-          - Any
+  # - name: magic_app
+  #   services:
+  #     - name: front-end
+  #       services:
+  #         - https
+  #         - http
+  #       scope:
+  #         - net_magic_front
+  #       consumers:
+  #         - Any
 
   - name: polar_app
     services:
