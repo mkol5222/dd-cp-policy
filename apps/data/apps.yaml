@@ -45,36 +45,36 @@ apps:
   #       consumers:
   #         - Any
 
-  - name: polar_app
-    services:
-      - name: front-end-polar
-        services:
-          - https
-          - http
-        scope:
-          - net_polar_pub
-        consumers:
-          - Any
+  # - name: polar_app
+  #   services:
+  #     - name: front-end-polar
+  #       services:
+  #         - https
+  #         - http
+  #       scope:
+  #         - net_polar_pub
+  #       consumers:
+  #         - Any
 
-      # - name: backend-end-polar
-      #   services:
-      #     - https
-      #     - MS-SQL-Server
-      #   scope:
-      #     - net_polar_back
-      #   consumers:
-      #     - net_polar_pub
+  #     # - name: backend-end-polar
+  #     #   services:
+  #     #     - https
+  #     #     - MS-SQL-Server
+  #     #   scope:
+  #     #     - net_polar_back
+  #     #   consumers:
+  #     #     - net_polar_pub
 
-      # - name: backend-systems
-      #   services:
-      #     - https
-      #     - http
-      #     - MS-SQL-Server
-      #     - ssh
-      #   scope:
-      #     - net_magic_back
-      #   consumers:
-      #     - net_magic_front
+  #     # - name: backend-systems
+  #     #   services:
+  #     #     - https
+  #     #     - http
+  #     #     - MS-SQL-Server
+  #     #     - ssh
+  #     #   scope:
+  #     #     - net_magic_back
+  #     #   consumers:
+  #     #     - net_magic_front
 
 #   - name: scooter_eshop
 #     services:
@@ -119,15 +119,15 @@ apps:
 
 
 
-  - name: cars
-    services:
-      - name: "publicweb"
-        services:
-          - https
-        scope:
-          - net_cars_publicweb
-        consumers:
-          - Any
+  # - name: cars
+  #   services:
+  #     - name: "publicweb"
+  #       services:
+  #         - https
+  #       scope:
+  #         - net_cars_publicweb
+  #       consumers:
+  #         - Any
 
   - name: devops-app
     services:
