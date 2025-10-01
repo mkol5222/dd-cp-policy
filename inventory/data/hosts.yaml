@@ -19,7 +19,7 @@ hosts:
 
   - name: jerry
     ip: 10.10.1.188
-    color: grey
+    color: black
     tags:
       - tom_and_jerry
     comment: test
