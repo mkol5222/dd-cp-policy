@@ -16,6 +16,13 @@ hosts:
       - tom_and_jerry
       - skupa
     comment: test
+
+  - name: jerry
+    ip: 10.10.1.188
+    color: grey
+    tags:
+      - tom_and_jerry
+    comment: test
     
   - name: spejbl
     ip: 10.10.1.204
